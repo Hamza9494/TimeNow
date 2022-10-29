@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  width: 90vw;
+  max-width: 1162px;
+  margin: 0 auto;
+}
+
+/* nav */
+.header {
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-toggle {
+  cursor: pointer;
+}
+nav a {
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+  display: block;
+  margin: 0.5rem;
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+}
+.show-links {
+  height: auto;
+}
+/* end of nav */
+
+/* content */
+.content h1 {
+  width: 65%;
+  color: #231955;
+}
+.content p {
+  font-size: 19px;
+  margin: 1rem 0;
+
+  line-height: 1.5rem;
+}
+.btn {
+  background-color: #231955;
+  color: white;
+  text-transform: capitalize;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 5px;
+  letter-spacing: 1.25px;
+  display: block;
+}
+.demo {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+  align-self: center;
+  display: block;
+}
+.offers {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.pub {
+  display: flex;
+  gap: 1rem;
+}
+.shield {
+  margin-top: -1.25rem;
+}
+/* end of content */
+/* view 2 */
+/* color #31E1F7 */
+/* end of view2 */
