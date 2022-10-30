@@ -105,6 +105,29 @@ nav a {
 }
 /* end of view2 */
 
+/* flex2 */
+.people img {
+  width: 52px;
+}
+.flex2 {
+  width: 90vw;
+  margin: 2.25rem auto;
+}
+.people {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.flex2 h1 {
+  width: 80%;
+}
+.view4 p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin: 2rem 0;
+}
+
 /* media queries */
 
 /* tablet view */
@@ -164,6 +187,22 @@ nav a {
     justify-content: space-between;
     align-items: center;
   }
+
+  /* flex2 */
+  .view3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1162px;
+  }
+  .view3 h1 {
+    width: 90%;
+  }
+  .view4 p {
+    width: 80%;
+    font-size: 19px;
+  }
+  /* end of flex 2 */
 }
 /* big screen view */
 @media screen and (min-width: 1025px) {
@@ -195,6 +234,7 @@ nav a {
   .view2 img {
     width: 60%;
     max-width: 800px;
+    height: 570px;
     padding-left: 3rem;
     padding-top: 4rem;
     display: block;
@@ -231,6 +271,37 @@ nav a {
   .view2 {
     max-width: 800px;
   }
+  /* flex2 */
+  .view3 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .view3 h1 {
+    width: 100%;
+    max-width: 500px;
+  }
+  .flex2 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .view4 {
+    width: 100%;
+    margin-left: 14rem;
+  }
+  .view4 p {
+    width: 100%;
+    font-size: 20px;
+    margin: 1rem 0;
+  }
+  .people {
+    gap: 0.75rem;
+  }
+  /* end of flex2 */
 }
 
 @media screen and (min-width: 1500px) {
@@ -242,6 +313,9 @@ nav a {
   }
   .view1 h1 {
     width: 550px;
+  }
+  .view4 {
+    margin-left: 20rem;
   }
 }
 /* end of media queries */

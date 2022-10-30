@@ -5,3 +5,4 @@ const navLinks = document.querySelector('.nav-links')
 navToggle.addEventListener('click', () => {
   navLinks.classList.toggle('show-links')
 })
+console.log(window.innerWidth)
