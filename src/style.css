@@ -106,11 +106,15 @@ nav a {
 /* end of view2 */
 
 /* media queries */
+
 /* tablet view */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .view1 {
     width: 40%;
     margin-left: 2rem;
+  }
+  .learn br {
+    content: ' ';
   }
 
   .content {
@@ -228,9 +232,16 @@ nav a {
     max-width: 800px;
   }
 }
-/* @media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 1500px) {
   .view2 .btn {
-    display: block;
+    right: 10rem;
   }
-} */
+  .view1 {
+    max-width: 700px;
+  }
+  .view1 h1 {
+    width: 550px;
+  }
+}
 /* end of media queries */
