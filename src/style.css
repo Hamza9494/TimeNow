@@ -10,7 +10,7 @@ body {
 }
 .container {
   width: 90vw;
-  max-width: 1162px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -106,12 +106,11 @@ nav a {
 /* end of view2 */
 
 /* flex2 */
+.flex2 {
+  margin-top: 3rem;
+}
 .people img {
   width: 52px;
-}
-.flex2 {
-  width: 90vw;
-  margin: 2.25rem auto;
 }
 .people {
   display: flex;
@@ -136,9 +135,6 @@ nav a {
     width: 40%;
     margin-left: 2rem;
   }
-  .learn br {
-    content: ' ';
-  }
 
   .content {
     margin-top: 2rem;
@@ -150,15 +146,17 @@ nav a {
   }
   .view2 {
     overflow: hidden;
-    width: 55%;
+    width: 60%;
     /* max-width: 50%; */
-    height: 600px;
+    height: auto;
     position: relative;
   }
   .view2 img {
-    width: 60%;
-    padding-left: 3rem;
-    padding-top: 4rem;
+    width: 90%;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
     display: block;
   }
   .view2 .btn {
@@ -226,15 +224,14 @@ nav a {
   }
   .view2 {
     overflow: hidden;
-    width: 45%;
+    width: 60%;
     height: auto;
     position: relative;
-    max-width: 800px;
   }
   .view2 img {
-    width: 60%;
+    width: 90%;
     max-width: 800px;
-    height: 570px;
+    height: auto;
     padding-left: 3rem;
     padding-top: 4rem;
     display: block;
@@ -246,7 +243,7 @@ nav a {
     width: 210px;
     font-size: 20px;
     position: absolute;
-    right: 5rem;
+    right: 10rem;
   }
 
   .offers {
@@ -281,17 +278,15 @@ nav a {
     max-width: 500px;
   }
   .flex2 {
+    margin-top: 1rem;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     gap: 4rem;
     align-items: center;
-    max-width: 1500px;
-    margin: 0 auto;
   }
   .view4 {
     width: 100%;
-    margin-left: 14rem;
   }
   .view4 p {
     width: 100%;
@@ -304,18 +299,4 @@ nav a {
   /* end of flex2 */
 }
 
-@media screen and (min-width: 1500px) {
-  .view2 .btn {
-    right: 10rem;
-  }
-  .view1 {
-    max-width: 700px;
-  }
-  .view1 h1 {
-    width: 550px;
-  }
-  .view4 {
-    margin-left: 20rem;
-  }
-}
 /* end of media queries */
