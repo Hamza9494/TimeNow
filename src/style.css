@@ -126,6 +126,42 @@ nav a {
   letter-spacing: 0.5px;
   margin: 2rem 0;
 }
+/* end of flex2 */
+
+/* flex3 */
+.flex3 {
+  background-color: rgba(141, 216, 204, 0.45);
+  margin-top: 4rem;
+}
+.view5 {
+  padding: 2rem 1rem;
+}
+.flex3 h3 {
+  color: #2192ff;
+  margin-bottom: 1rem;
+}
+.flex3 h1 {
+  color: #404258;
+  margin-bottom: 1rem;
+  width: 70%;
+}
+.flex3 p {
+  font-size: 18px;
+  line-height: 1.35rem;
+  width: 85%;
+}
+.view5 .btn {
+  margin-top: 1rem;
+}
+.view6 {
+  padding: 2rem 1rem;
+}
+.view6 .demo {
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: -1.25rem;
+}
+/* end of flex3 */
 
 /* media queries */
 
@@ -201,6 +237,11 @@ nav a {
     font-size: 19px;
   }
   /* end of flex 2 */
+  /* flex3 */
+  .flex3 p {
+    width: 100%;
+  }
+  /* end of flex3 */
 }
 /* big screen view */
 @media screen and (min-width: 1025px) {
@@ -297,6 +338,12 @@ nav a {
     gap: 0.75rem;
   }
   /* end of flex2 */
+  /* flex3 */
+  .flex3 .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* end of flex3 */
 }
 
 /* end of media queries */
