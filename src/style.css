@@ -63,6 +63,7 @@ nav a {
   display: block;
   max-width: 230px;
   cursor: pointer;
+  text-decoration: none;
 }
 .demo {
   font-size: 22px;

@@ -31,10 +31,11 @@ li {
 nav a {
   font-size: 18px;
   text-transform: capitalize;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
   text-decoration: none;
   display: block;
   line-height: 1.75rem;
+  color: black;
 }
 .nav-links {
   height: 0;
@@ -65,11 +66,12 @@ nav a {
 }
 .offer {
   width: 80%;
-
   margin: 1rem auto;
   display: flex;
   gap: 10px;
+  justify-content: center;
   align-items: center;
+  max-width: 700px;
 }
 .offer p {
   font-size: 18px;
@@ -151,10 +153,10 @@ input:checked + .slider:before {
   font-weight: normal;
 }
 .line {
-  width: 80%;
+  width: 90%;
   background-color: #d3d3d3;
   height: 1px;
-  margin: 0 auto;
+  margin: 2rem auto;
   margin-bottom: 1.75rem;
 }
 
@@ -178,7 +180,12 @@ input:checked + .slider:before {
   padding: 2rem;
   border-radius: 5px;
   width: 80vw;
+  max-width: 500px;
   margin: 2rem auto;
+}
+.plan-container {
+  width: 80%;
+  margin: 0 auto;
 }
 .plan h2 {
   margin-bottom: 1rem;
@@ -199,6 +206,103 @@ input:checked + .slider:before {
   font-size: 18px;
   text-transform: capitalize;
 }
+.plan {
+  box-shadow: 0 2px 3px 0 rgba(20, 20, 20, 0.1);
+}
 
 /* end of plans */
 /* end of content */
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    height: auto;
+    gap: 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content h1 {
+    width: 100%;
+  }
+  .plan {
+    width: 45%;
+    max-width: 800px;
+  }
+  .plan:nth-child(3) {
+    width: 100%;
+  }
+  .plan:nth-child(3) .btn {
+    max-width: 700px;
+    width: 100%;
+  }
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature p {
+    width: 100%;
+  }
+  .plan p {
+    width: 100%;
+  }
+  .plan .btn {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .content h1 {
+    width: 100%;
+  }
+  .content p {
+    width: 650px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .plan {
+    width: 30%;
+    max-width: 450px;
+  }
+
+  .plans {
+    display: flex;
+    gap: 10px;
+  }
+  .plan:nth-child(1) {
+    height: 420px;
+  }
+  .plan:nth-child(3) {
+    height: 370px;
+  }
+  .offer {
+    width: 350px;
+  }
+  .feature p {
+    width: 100%;
+  }
+  .plan p {
+    width: 100%;
+  }
+  .plan .btn {
+    margin-top: 2rem;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    height: auto;
+    gap: 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
